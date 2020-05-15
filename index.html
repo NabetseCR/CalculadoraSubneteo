@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="docs/css/utilities.css">
+  <link rel="stylesheet" href="docs/css/style.css">
+  <title>Calculadora Subneteo</title>
+</head>
+
+<body id="home">
+  <header class="hero">
+
+    <video autoplay muted loop class ="myVideo">
+      <source src="./docs/img/bg_video01.mp4" type="video/mp4">
+    </video>
+
+    <div id="navbar" class="navbar top">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-calculator"></i>Calculadora</span>Subneteo
+      </h1>
+    </div>
+    <div class="content">
+      <div class="form-control">
+        <div class="entry">Digite IP ("10.1.36.0/28")</div>
+      </div>
+      <div class="form-control">
+        <table class="calculator-keys">
+          <tbody>
+            <tr>
+              <td><button class="btn btn-outline calculator-key">1</button></td>
+              <td><button class="btn btn-outline calculator-key">2</button></td>
+              <td><button class="btn btn-outline calculator-key">3</button></td>
+              <td><button class="btn btn-outline calculator-key">4</button></td>
+              <td><button class="btn btn-outline calculator-key">5</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn btn-outline calculator-key">6</button></td>
+              <td><button class="btn btn-outline calculator-key">7</button></td>
+              <td><button class="btn btn-outline calculator-key">8</button></td>
+              <td><button class="btn btn-outline calculator-key">9</button></td>
+              <td><button class="btn btn-outline calculator-key">0</button></td>
+            </tr>
+            <tr>
+              <td><button class="btn btn-outline calculator-key">.</button></td>
+              <td><button class="btn btn-outline calculator-key">/</button></td>
+              <td></td>
+              <td><button class="btn btn-outline calculator-key" data-action="del">DEL</button></td>
+              <td><button class="btn btn-outline calculator-key" data-action="clr">CLR</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <input type="submit" value="Analizar" id="submit" class="btn">
+    </div>
+  </header>
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="https://www.facebook.com/esteban.chinchilla.33"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://twitter.com/nabetsecr"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.instagram.com/nabetsecr/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/esteban-chinchilla-a284b2162/"><i class="fab fa-linkedin  fa-2x"></i></a>
+      <a href="https://nabetsecr.github.io/EstebanChinchilla.github.io/"><i class="fas fa-file fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 Esteban Chinchilla Brenes</p>
+  </footer>
+  <script src="docs/JS/app.js"></script>
+</body>
+
+</html>
