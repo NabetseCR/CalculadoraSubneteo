@@ -17,7 +17,7 @@ keys.addEventListener('click', e => {
         }
         if (action === 'clr'){
             auxText = "";
-            display.textContent = "Digite IP ("+"10.1.36.0/28"+")";
+            display.textContent = "Enter an IP ("+"10.1.36.0/28"+")";
         }
         if (action === 'del'){
             auxText = auxText.substring(0, auxText.length - 1);
